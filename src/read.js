@@ -82,3 +82,5 @@ console.log(__filename);
        new Buffer(size)   创建Buffer对象，并未这个对象分配一个大小
        var bf = new Buffer("miaov","utf-8");
        console.log(bf);
+       bf.write(要写入的字符串，偏移量，写入字符串的长度，写入字符串的编码);
+*/
