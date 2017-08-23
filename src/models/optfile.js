@@ -6,11 +6,11 @@ module.exports = {
        	   	   console.log("没有找到");
        	   	   recall('文件不存在');
        	   }else{
-       	   	   console.log(data.toString());
+       	   	   // console.log(data.toString());
        	   	   recall(data);
        	   }
        });
-       console.log('异步调用完毕!');
+       // console.log('异步调用完毕!');
 	},
 	readfileSync:function(path){  //同步执行
        var data = fs.readFileSync(path,'utf-8');
